@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 200vh;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+.Container{
+height: 83vh;
+width: 70vh;
+background-color:white;
+border-radius: 14px;
+text-align: center;
+border: 5px double red;
+}
+
+h2,h3{
+    color:red;
+}
+
+#searchBox{
+    width: 20rem;
+    height: 30px;
+    font-size: large;
+    text-align: center;
+    border: 2px solid palevioletred;
+}
+#searchButton{
+    width: 5rem;
+    font-size: large;
+    height:34px;
+    margin-right: 5px;
+    background-color: white;
+    border: 2px solid palevioletred;
+}
+#searchBox:hover{
+    background-color: pink;
+}
+#searchButton:hover{
+    background-color: pink;
+  
+}
+.input_field{
+    display: flex;
+    margin: 6px;
+    padding: 9px;
+    justify-content: space-around;
+}
+
+.date_time{
+display: flex;
+color:brown; 
+justify-content: space-between;
+margin: 2px;
+padding: 2px;
+}
+
+#w_icon {
+    height:10rem;
+    width: 10rem;
+}
+.city_temp{
+    height: 3rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 7.5rem;
+}
+.humidity_pressure_wind{
+    display: flex;
+    width: 70vh;
+    justify-content: space-between;
+    color:brown;
+}
+.humidity_pressure_wind img{
+    width: 4rem;
+    height: 3rem;
+}
+.weather_forecast{
+    color:blue;
+  font-weight: bolder;
+  font-size: large;
+}
+#footer{
+    margin-top:5px;
+    color:black;
+}
+

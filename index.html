@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Using Php</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+</head>
+<body>
+    <div class="Container">
+        <h2>Weather App</h2><hr>
+       <div class="date_time">
+<h4 id="Date"></h4>
+<h4 id="Time"></h4>
+        </div>
+        <div class="input_field">
+        <input type="text" placeholder="Enter a valid city name..." id="searchBox" value="Manchester">
+        <button id="searchButton">Search</button>
+    </div>
+    <div class="weather_forecast" id="w_desc" ></div>
+    <div>
+      <img  id='w_icon' class="weather-icon animate__animated animate__infinite animate__pulse animate__slow">
+    </div>
+<div class="city_temp">
+<h3 id="temp"></h3>
+<h3 id="city"></h3>
+</div>
+<div class="humidity_pressure_wind">
+<div id="humidity">
+    <img src="https://cdn-icons-png.flaticon.com/128/2828/2828582.png">
+    <p id="Humidity_data"></p>
+  <h4>Humidity</h4>
+</div>  
+<div id="Pressure">
+    <img src="https://img.icons8.com/?size=96&id=15344&format=png">
+    <p id="Pressure_data"></p>
+  <h4>Pressure</h4>
+</div>
+<div id="wind_speed">
+    <img src="https://img.icons8.com/?size=64&id=fmaifEO4XPp0&format=png">
+    <p id="Speed_data"></p>
+  <h4>Wind Speed</h4>
+</div>
+</div><hr><br>
+<h4 id="footer">Copyright © 2024 Prakriti Khadka. All right reserved.</h4>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
